@@ -1,0 +1,42 @@
+footer {
+    background: rgb(10,0,20);
+    overflow: auto;
+    padding: 2em 3em;
+    color: rgba(255,255,255,0.6);
+    font-size: .9em;
+    font-weight: 500;
+    position: relative;
+    z-index: 5;
+    
+}
+
+footer div {
+    max-width: 75em;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer span {
+    display: block;
+}
+
+footer span:last-child {
+    text-align: right;
+}
+
+#contact-links a {
+    margin: 0 .6em;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+#contact-links a svg {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#contact-links a svg path {
+    fill: #fff;
+}

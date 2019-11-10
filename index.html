@@ -138,7 +138,7 @@
 				<header>
 					<h2>Let's work together.</h2>
 				</header>
-				<form name="contact" method="post" netlify-recaptcha netlify>
+				<form name="contact" method="post" data-netlify-recaptcha="true" data-netlify="true">
 					<div>
 						<div class="row">
 							<div class="col-6 col-12-medium">
@@ -153,6 +153,7 @@
 							<div class="col-12">
 								<textarea name="message" placeholder="Message" rows="6"></textarea>
 							</div>
+							<div data-netlify-recaptcha="true" class="col-12"></div>
 							<div class="col-12">
 								<input type="submit" value="Send Message" />
 							</div>
